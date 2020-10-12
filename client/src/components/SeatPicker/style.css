@@ -1,0 +1,62 @@
+.seat-select {
+  min-height: 300px;
+}
+
+.seat.seat--selected {
+  background-color: #13505c !important;
+}
+
+.seat.seat--enabled {
+  background-color: #a4d6e0 !important;
+}
+
+.seat-select .seat-picker-action {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+  margin-left: 28px;
+}
+
+.seat-confirm-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  flex-direction: column;
+  color: #28a745;
+}
+
+.seat-confirm-box i {
+  font-size: 48px;
+}
+
+.seat-confirm-box .seat-confirmed {
+  font-size: 24px;
+  padding: 0 4rem;
+}
+
+.seat-picker__row:nth-child(5) {
+  margin-top: 30px;
+}
+
+.seat-picker-header {
+  display: flex;
+  margin-left: 30px;
+}
+
+.seat-picker-header .seat-picker-header-column {
+  flex: 1;
+  margin-bottom: 2px;
+  font-weight: normal;
+  height: 28px;
+  width: 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #9E9E9E;
+}
+
+.seat-picker-header .seat-picker-header-column:nth-child(5) {
+  margin-left: 30px;
+}
